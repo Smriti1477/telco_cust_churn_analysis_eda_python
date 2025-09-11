@@ -1,75 +1,51 @@
-Features / What’s Inside
+#  Telco Customer Churn Analysis (EDA with Python)
 
-Data loading and initial inspection
+##  Project Overview
+This project focuses on **Exploratory Data Analysis (EDA)** of a Telco customer churn dataset.  
+The main objective is to identify patterns, trends, and key drivers of customer churn, providing insights that can help businesses reduce churn rates and improve customer retention strategies.
 
-Cleaning data: handling missing values, dealing with inconsistent entries
+---
 
-Univariate analysis: distribution of features (numerical and categorical)
+## 📂 Repository Contents
+| File | Description |
+|------|-------------|
+| `Customer Churn (5).csv` | Raw dataset with customer demographics, services, billing, and churn status. |
+| `TCCA.ipynb` | Main Jupyter Notebook with data cleaning, EDA, and visualizations. |
+| `Summary_TCCA.pdf` | Executive summary report of findings and insights. |
 
-Bivariate / multivariate analysis: relationships between features (e.g. how certain features relate to churn)
+---
 
-Visualization of important trends
+## 🛠️ Tech Stack & Libraries
+- **Language:** Python  
+- **Notebook Environment:** Jupyter Notebook  
+- **Libraries Used:**
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
 
-Summary of key observations
+---
 
-Tech Stack & Dependencies
-
-Language: Python
-
-Notebook environment: Jupyter Notebook
-
-Main libraries (likely used):
-
-pandas
-
-numpy
-
-matplotlib
-
-seaborn
-
-Environment setup:
-
-# Example setup
-python3 -m venv venv
-source venv/bin/activate   # On Windows use `venv\Scripts\activate`
+## ▶️ How to Run the Project
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Smriti1477/telco_cust_churn_analysis_eda_python.git
+   cd telco_cust_churn_analysis_eda_python
+2.Install dependencies
 pip install -r requirements.txt
-
-How to Use / Run
-
-Clone the repo:
-
-git clone https://github.com/Smriti1477/telco_cust_churn_analysis_eda_python.git
-cd telco_cust_churn_analysis_eda_python
-
-
-Install dependencies (as above).
-
-Open the notebook TCCA.ipynb in Jupyter or JupyterLab:
-
+3.Open the notebook
 jupyter notebook TCCA.ipynb
+4.Explore the analysis step by step (data cleaning → EDA → visualization → insights).
 
+Key Insights (from EDA)
 
-Follow through the notebook: data load → cleaning → EDA → visualization → summary.
+Customer tenure, contract type, and payment method play significant roles in churn.
 
-Review Summary_TCCA.pdf for high-level takeaways.
+Month-to-month contracts and electronic check payments have higher churn rates.
 
-Insights & Key Findings (Example / to fill in)
+Customers with shorter tenure are more likely to churn compared to long-term customers.
 
-Which features correlate most with churn (e.g. contract type, tenure, monthly charges)
-
-Any surprising findings (e.g. demographics, payment method)
-
-Possible recommendations for business (e.g. focus on reducing long-term plans, offering incentives for shorter contracts, etc.)
-
-
-
-Author
-
-Smriti1477
+High monthly charges correlate with increased churn probability.
 
 
 
-(If you have one, specify: e.g. MIT, Apache 2.0, etc. If not, you may choose one or leave blank.)
-
-If you like, I can prepare a polished README markdown file content (that you can copy directly into README.md). Do you want me to generate that?
